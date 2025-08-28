@@ -3,11 +3,10 @@ import java.util.Scanner;
 
 public class MortgageCalculator {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
         final byte MONTHS_IN_YEARS = 12;
         final byte PERCENT = 100;
 
-        Scanner scanner = new Scanner(System.in);
         System.out.print("Principle:");
         double principal = scanner.nextDouble();
 
